@@ -3,6 +3,10 @@
     box-shadow: -1px 4px 20px 1px #f1f1f185;
 }
 
+.left-menu.hide {
+    width: 0;
+}
+
 header.header {
     justify-content: space-between;
     align-items: center;
@@ -73,7 +77,6 @@ p.count {
 
 
 /* ========================dropdown manu create========== */
-
 
 .dropdown-menu {
     z-index: var(--z-fixed);
@@ -161,7 +164,6 @@ p.note-time {
 
 /* =============================Message dropdown style============ */
 
-
 img.sms-user {
     width: 45px;
     height: 45px;
@@ -182,7 +184,6 @@ p.user-role {
 
 
 /* ===========================profile style============= */
-
 
 .media {
     background: var(--main-color);
@@ -222,8 +223,8 @@ a.dropdown-item a span {
     padding-right: 8px;
 }
 
-/* =============SIDEBAR START STYLE=========== */
 
+/* =============SIDEBAR START STYLE=========== */
 
 .left-menu {
     height: 100vh;
@@ -232,15 +233,13 @@ a.dropdown-item a span {
     box-shadow: 3px -1px 19px 1px #efeeee;
     overflow-y: scroll;
     transition: .5s;
-    margin-top: 50px;
+    margin-top: -15px;
     background: var(--white-color);
 }
 
 nav.animated {
     position: relative;
-    
-/* width: 240px; */
-
+    /* width: 240px; */
 }
 
 .left-menu::-webkit-scrollbar {

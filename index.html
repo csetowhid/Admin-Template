@@ -9,18 +9,20 @@
     <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/sass.css">
     <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
+
     <div class="main-wrapper">
         <!-- --NAVBAR---- -->
         <div class="header-container fixed-top">
             <header class="header  navbar navbar-expand-sm expand-header">
                 <div class="header-left d-flex">
                     <div class="logo">
-                        Integer
+                        DevIngine
                     </div>
-                    <a href="" class="sidebarCollapse" data-placement="bottom">
+                    <a href="#" class="sidebarCollapse" id="toogleSidebar" data-placement="bottom">
                         <span class="fas fa-bars"></span>
                     </a>
                 </div>
@@ -99,23 +101,23 @@
                         <div class="dropdown-menu">
                             <div class="dp-main-menu">
                                 <a href="" class="dropdown-item message-item">
-                                    <img src="assets/img/towhid.jpg" alt="" class="sms-user">
+                                    <img src="assets/img/user-1.jpeg" alt="" class="sms-user">
                                     <div class="user-message-info">
-                                        <p class="m-user-name">Towhid Hasan</p>
+                                        <p class="m-user-name">Helal Uddin</p>
                                         <p class="user-role">Super Admin</p>
                                     </div>
                                 </a>
                                 <a href="" class="dropdown-item message-item">
                                     <img src="assets/img/user-3.png" alt="" class="sms-user">
                                     <div class="user-message-info">
-                                        <p class="m-user-name">Sudipto Biswas</p>
+                                        <p class="m-user-name">Admin Sohel</p>
                                         <p class="user-role">Admin</p>
                                     </div>
                                 </a>
                                 <a href="" class="dropdown-item message-item">
                                     <img src="assets/img/user-2.jpg" alt="" class="sms-user">
                                     <div class="user-message-info">
-                                        <p class="m-user-name">Enamul Hossain</p>
+                                        <p class="m-user-name">Shinthia Kabir</p>
                                         <p class="user-role">Co-Admin</p>
                                     </div>
                                 </a>
@@ -135,8 +137,8 @@
                                 </a>
                             </div>
                         </div>
-                        
                     </li>
+
                     <li class="nav-item dropdown user-profile-dropdown">
                         <a href="" class="nav-link user" id="Notify" data-bs-toggle="dropdown">
                             <img src="assets/img/profile.svg" alt="" class="icon">
@@ -145,10 +147,10 @@
                         <div class="dropdown-menu">
                             <div class="user-profile-section">
                                 <div class="media mx-auto">
-                                    <img src="assets/img/towhid.jpg" alt="" class="img-fluid mr-2">
+                                    <img src="assets/img/profile.svg" alt="" class="img-fluid mr-2">
                                     <div class="media-body">
-                                        <h5>Towhid Hasan</h5>
-                                        <p>Super Admin</p>
+                                        <h5>Helal Uddin</h5>
+                                        <p>Super admin</p>
                                     </div>
                                 </div>
                             </div>
@@ -160,7 +162,6 @@
                                 <a href="" class="dropdown-item"><span class="fas fa-outdent"></span>Log Out</a>
                             </div>
                         </div>
-
                     </li>
                     <li class="nav-item dropdown user-profile-dropdown">
                         <a href="" class="nav-link user" id="Notify" data-bs-toggle="dropdown">
@@ -183,22 +184,21 @@
 
 
         <!-- ------------------SIDEBAR START----------- -->
-
         <div class="left-menu">
             <div class="menubar-content">
                 <nav class="animated bounceInDown">
                     <ul id="sidebar">
                         <li class="active">
-                            <a href="#"><i class="fas fa-home"></i>Dashboard</a>
+                            <a href="index.html"> <i class="fas fa-home"></i> Dashboard</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fas fa-box-open"></i>Widgets</a>
+                            <a href="#"> <i class="fas fa-box-open"></i> Widgets</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fab fa-uikit"></i>UI Elements</a>
+                            <a href="#"> <i class="fab fa-uikit"></i> UI Elements</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fas fa-chart-bar"></i>Advance UI</a>
+                            <a href="#"> <i class="fas fa-chart-bar"></i> Advanced UI</a>
                         </li>
                         <li>
                             <a href="#"> <i class="fab fa-telegram-plane"></i> Form Elements</a>
@@ -270,8 +270,36 @@
                 </nav>
             </div>
         </div>
-        
-<!-- ------------------SIDEBAR END----------- -->
+        <!-- ------------------SIDEBAR END----------- -->
+
+        <div class="content-wrapper">
+            <section class="dashboard-top-sec">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div class="bg-white top-chart-earn">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="last-month">
+                                            <h5>Dashboard</h5>
+                                            <p>Overview of Latest Month</p>
+
+                                            <div class="earn">
+                                                <h2>$3367.98</h2>
+                                                <p>Current Month Sales</p>
+                                            </div>
+                                            <a href="" class="di-btn purple-gradient">Last Month Summary</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+
 
     </div>
     
