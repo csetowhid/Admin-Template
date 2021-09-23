@@ -74,10 +74,11 @@ p.count {
 
 /* ========================dropdown manu create========== */
 
+
 .dropdown-menu {
     z-index: var(--z-fixed);
     max-width: 15rem;
-    right: -21px !important;
+    right: 0 !important;
     left: auto !important;
     min-width: 16rem;
     padding: 0;
@@ -103,10 +104,10 @@ img.user-note {
     color: var(--second-color);
     width: 100%;
     white-space: initial;
-    line-height: 13px;
+    line-height: 18px;
     border-bottom: 1px solid #f7f7f7;
     align-items: center;
-    padding: 10px;
+    padding: 15px;
 }
 
 .message-item {
@@ -133,6 +134,15 @@ img.user-note {
     border-radius: 50%;
     background: var(--main-grident);
     color: var(--white-color);
+}
+
+p.status-link span {
+    color: #fff !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 !important;
 }
 
 p.note-name {
