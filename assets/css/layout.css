@@ -221,3 +221,33 @@ a.dropdown-item a span {
     color: var(--main-color);
     padding-right: 8px;
 }
+
+/* =============SIDEBAR START STYLE=========== */
+
+
+.left-menu {
+    height: 100vh;
+    width: 240px;
+    position: fixed;
+    box-shadow: 3px -1px 19px 1px #efeeee;
+    overflow-y: scroll;
+    transition: .5s;
+    margin-top: 50px;
+    background: var(--white-color);
+}
+
+nav.animated {
+    position: relative;
+    
+/* width: 240px; */
+
+}
+
+.left-menu::-webkit-scrollbar {
+    width: 6px;
+}
+
+.left-menu::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: linear-gradient(0deg, rgba(180, 58, 112, 1) 0%, rgb(232, 37, 170) 54%);
+}
