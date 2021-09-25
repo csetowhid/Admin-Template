@@ -1,4 +1,4 @@
-# JetStream Multi authentication
+# Admin Template
 This is a Simple Admin Dashboard Design
 
 ## Requirement
