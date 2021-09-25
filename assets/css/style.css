@@ -291,3 +291,21 @@ tbody.order-view-tb tr.odd{
 tbody.order-view-tb tr{
     border-color: #e6e6e6;
 }
+
+.no-footer{
+    border-bottom: 1px solid #f9f9f9 !important;
+}
+
+.status-tb-btn{
+    padding: 0 10px;
+    border-radius: 5px;
+    color: var(--white-color);
+}
+
+.bg-clb{
+    background: var(--main-grident);
+}
+
+.bg-clc{
+    background: var(--main-grident);
+}
