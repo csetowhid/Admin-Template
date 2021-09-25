@@ -18,3 +18,10 @@ $(document).ready(function() {
         $(".content-wrapper").toggleClass("hide");
     });
 });
+
+
+// =================Order Show Data Table=========
+
+$(document).ready(function() {
+    $('#order-table').DataTable();
+} );
